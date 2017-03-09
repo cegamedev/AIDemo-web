@@ -1,0 +1,55 @@
+@import "../../../common/skin/var";
+.user-rank {
+  .user-rank-teacher-head{
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+  .user-rank-my-head {
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+  .top-rank {
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .line28 {
+    line-height: 28px;
+  }
+  .mr25 {
+    margin-right: 25px;
+  }
+  .mr16 {
+    margin-right: 16px;
+  }
+  .min90 {
+    min-width: 90px;
+  }
+  .min70 {
+    min-width: 70px;
+  }
+  .iconbg {
+    color: #D3D8DA;
+  }
+  .rank-bottom {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #9B9B9B;
+    .a-about {
+      cursor: pointer;
+    }
+  }
+  .user-rank-table > thead > tr > td ,.user-rank-table > tbody > tr > td{
+    text-align: left;
+  }
+}
+
+
+
+

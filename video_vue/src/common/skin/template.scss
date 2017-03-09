@@ -1,0 +1,292 @@
+@import "./var";
+@import "./resources/font/iconfont.css";
+@import "./common/skin/flex.css";
+@import "hack";
+@import "./common/skin/animation.scss";
+
+//框架层样式
+@import "framework";
+
+//组件
+@import "component";
+
+//轮播
+@import "./lib/swiper/swiper.min.css";
+
+body{
+  font-family: "PingFang","PingFangSC","PingFangSC-Regular","PingFang SC","PingFang SC-Regular","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  font-size: 14px;
+  background-color: $bg-color;
+  color: $text-color;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.container{
+  margin : 0 auto;
+  clear: both;
+}
+
+.container-reverse-top{
+    margin-top: -25px;
+}
+
+//图标字体颜色
+.iconfont{
+  color: #A5A5A5;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+input,textarea{
+  outline: none;
+  &:focus{
+    outline: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover,&:focus{
+    text-decoration: none;
+  }
+  &:active{
+    text-decoration: none;
+  }
+}
+
+
+*{
+  -webkit-tap-highlight-color  : rgba(0,0,0,0);
+  *:focus{
+      -webkit-tap-highlight-color  : rgba(0,0,0,0);
+  }
+}
+
+//背景图片裁剪
+.bg-img-clip{
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+}
+
+.text-color{
+  color: $text-color
+}
+.text-gray-color{
+  color: $text-gray-color
+}
+.text-light-color{
+  color: $text-light-color
+}
+
+
+.text-primary{
+  color:  $primary-color;
+}
+
+.text-accent{
+  color:  $accent-color;
+}
+
+.text-gray{
+  color:  #9B9B9B;
+}
+
+.text-danger{
+  color:  $danger-color;
+}
+
+
+.bg-primary{
+  color:  $primary-color;
+}
+
+.bg-accent{
+  color:  $accent-color;
+}
+
+.bg-danger{
+  color:  $danger-color;
+}
+
+
+//placeholder
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: $text-light-color;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $text-light-color;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $text-light-color;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: $text-light-color;
+}
+
+.input-group{
+  position: relative;
+  .input-icon{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+  }
+  .input-base{
+    padding-left: 25px;
+  }
+}
+
+//输入框组件
+.input-base{
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: #9B9B9B;
+  font-size : 12px;
+  box-shadow: none;
+
+  &.input-w-lg{
+      width: 258px;
+  }
+
+  &.input-block{
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.template-block{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+}
+.width-100-pec{
+    width: 100%;
+}
+
+.table-base{
+  background: #fff;
+  font-size: 12px;
+  width: 100%;
+
+  .table-thead-center{
+    text-align: center;
+  }
+
+  .table-tbody-center{
+    tr{
+      text-align: center;
+    }
+
+  }
+  tbody{
+
+    tr{
+      background: #F7F9F9;
+    }
+    tr:nth-child(2n){
+      background: #fff;
+    }
+  }
+
+
+  td{
+    padding: 14px;
+  }
+}
+
+//超链接下拉组件
+.dropdown-link{
+  font-size: 12px;
+
+  .iconfont{
+    color: $text-color;
+    position: relative;
+    bottom: -2px;
+  }
+}
+
+.font-12{
+  font-size: 12px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-13{
+  font-size: 13px;
+}
+.font-bold{
+  font-weight: bold;
+}
+
+
+.ovh{
+  overflow: hidden;
+}
+
+//select
+.input-select{
+    border: 1px solid $primary-color;
+    height: 25px;
+  .input-select-icon{
+    height: inherit;
+    background: $primary-color;
+     width: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .input-content{
+    text-align: center;
+    color: $primary-color;
+    padding: 0 8px;
+  }
+}
+
+//到底部
+.fixed-bottom-btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+@keyframes kf-location {
+    0%{
+      @include transform(rotateY(0deg));
+    }
+
+  100%{
+    @include transform(rotateY(360deg));
+  }
+}
+
+.location-animation{
+    @include animation(kf-location 1s ease 0s infinite both);
+}
+
+
+.base-form{
+  padding: 10px;
+  .user-head{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .form-group{
+    margin-bottom: 20px;
+    label{
+      margin-right: 22px;
+    }
+  }
+}

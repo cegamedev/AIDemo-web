@@ -1,0 +1,126 @@
+@import "var";
+
+//按钮样式
+.btn{
+  padding: 6px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-primary{
+  background: $primary-color;
+  color: #fff;
+  &:hover{
+    background:  #1390C9;
+  }
+
+  &.btn-outline{
+    background: transparent;
+    color: $primary-color;
+    border : 1px solid $primary-color;
+
+    &:hover{
+      background:  #D9F1FA;
+    }
+  }
+}
+
+.btn-info{
+  background: $info-color;
+  color: #fff;
+  &:hover{
+    background:  #BFC1C6;
+  }
+
+  &.btn-outline{
+    background: transparent;
+    color: $info-color;
+    border : 1px solid $info-color;
+
+    &:hover{
+      background:  #BFC1C6;
+    }
+  }
+}
+
+.btn-success{
+  background: $success-color;
+  color: #fff;
+  &:hover{
+    background:  $success-color;
+  }
+
+  &.btn-outline{
+    background: transparent;
+    color: $success-color;
+    border : 1px solid $success-color;
+
+    &:hover{
+      background:  #E5FDF3;
+    }
+  }
+}
+.btn:disabled{
+  background: $disable-color;
+  color: #fff;
+  border: 1px solid $disable-color;
+  &:hover{
+    background: #BFC1C6;
+  }
+}
+.btn-accent{
+  background: $accent-color;
+  color: #fff;
+
+  &:hover{
+    background: #E1A72A;
+  }
+
+  &.btn-outline{
+    background: transparent;
+    color: $accent-color;
+    border : 1px solid $accent-color;
+
+    &:hover{
+      background: #F8EDD5;
+    }
+  }
+
+
+}
+
+.btn-danger{
+  background: $danger-color;
+  color: #fff;
+
+  &:hover{
+    background: $danger-color;
+  }
+}
+
+//按钮尺寸
+.btn-md{
+  padding: 10px 17px;
+}
+.btn-ss{
+  padding: 2px 12px;
+  font-size: 12px;
+}
+//固定宽度
+.btn-w-md{
+  width : 140px;
+  padding-left : 5px;
+  padding-right : 5px;
+}
+.btn-w{
+  width : 96px;
+  padding-left : 5px;
+  padding-right : 5px;
+}
+
+.btn-block{
+  width: 100%;
+}
+.btn-radius{
+  border-radius: 4px;
+}

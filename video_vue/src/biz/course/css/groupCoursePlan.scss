@@ -1,0 +1,83 @@
+@import "../../../common/skin/var";
+
+.course-zero{
+  padding: 35px;
+}
+
+.school-course-list{
+  &>li{
+    box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 20px 24px;
+
+    a{
+      display: block;
+      clear: both;
+      position: relative;
+    }
+
+    .school-course-img{
+      width: 189px;
+      height: 118px;
+      overflow: hidden;
+      margin-right: 20px;
+    }
+    .school-course-bottom{
+      padding-top: 56px;
+    }
+
+    .school-course-name{
+      font-size: 17px;
+    }
+
+  }
+
+}
+.group-main-left{
+  width: 80%;
+  padding-right: 15px;
+}
+.group-main-right{
+  padding-top: 30px;
+  width: 20%;
+}
+
+.group-box{
+    margin-top: 20px;
+  .group-item{
+    color : $text-gray-color;
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px dashed #E6E6E6;
+     &:last-child{
+       border-bottom : 0;
+     }
+    p{
+      font-size: 12px;
+      margin-bottom: 7px;
+    }
+    .group-unit{
+      position: relative;
+      bottom: -9px;
+    }
+    h3{
+      font-size: 38px;
+      color: $text-color;
+    }
+  }
+}
+.group-course-plan-util{
+  padding: 30px 10px;
+  background: #fff;
+  color :#A5A5A5;
+  border-bottom: 1px solid $border-color;
+}
+
+.mt-temp-4{
+  margin-top: 4px;
+}
+
+
+

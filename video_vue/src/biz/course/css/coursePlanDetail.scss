@@ -1,0 +1,53 @@
+@import "../../../common/skin/var";
+
+$tb-width : 239px;
+.course-plan-detail{
+
+.course-plan-top{
+  padding: 20px;
+
+
+  .course-plan-banner{
+    width: $tb-width;
+  }
+  .course-plan-img{
+    width: $tb-width;
+    height: 150px;
+    margin-right: 21px;
+  }
+
+  .course-plan-name{
+    font-size: 18px;
+  }
+}
+
+  .course-plan-content{
+    .course-plan-util{
+      padding: 15px 20px;
+      border-bottom: 1px solid #F0F3F4;
+    }
+  }
+
+  .course-plan-teacher-head{
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+
+}
+
+
+.course-list{
+  &>li{
+    font-size: 12px;
+    padding: 14px;
+    border-bottom: 1px solid #F0F3F4;
+  }
+
+}
+.mt-temp-4{
+  margin-top: 4px;
+}
+

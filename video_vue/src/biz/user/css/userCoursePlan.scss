@@ -1,0 +1,46 @@
+@import "../../../common/skin/var";
+.user-course-plan {
+  .mlr5{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  .course-plan-item {
+    //width: 431px;
+
+    width: 50%;
+    float: left;
+    //padding-right: 15px;
+  }
+  .course-plan-item:nth-child(odd)
+  {
+    padding-right: 8px;
+  }
+  .course-plan-item:nth-child(even)
+  {
+    padding-left: 8px;
+  }
+  .course-plan-item .plan-item-title {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #757575;
+  }
+  .user-course-img{
+    height: 198px;
+    overflow: hidden;
+    //margin-right: 20px;
+  }
+  .user-course-bottom {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #9B9B9B;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}
+
+
+
+

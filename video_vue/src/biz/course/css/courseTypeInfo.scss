@@ -1,0 +1,249 @@
+@import "../../../common/skin/var";
+
+/**
+ * 迁移一期
+ * xinghui
+ */
+
+.c-content1{
+  background: url("../../../resources/images/c-content1-bk.png") center center no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 204px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.c-ct1-box{
+  width: 1072px;
+  height: 204px;
+  margin: 0 auto;
+  position: relative;
+}
+.c-ct1-left{
+  background-color: #fff;
+  width: 151px;
+  /*height: 190px;*/
+  position: absolute;
+  left: 0;
+  top: 30px;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+}
+.c-ct1-litem{
+  color: #4E4E4E;
+  font-size: 12px;
+  height: 47px;
+  line-height: 47px;
+  border-bottom: 1px solid #F0F0F0;
+  padding-left: 22px;
+}
+.c-ct1-right{
+  margin-top: 30px;
+  margin-left: 176px;
+  color: #fff;
+  font-size: 14px;
+}
+.c-ct1-rtop{
+  font-size: 28px;
+}
+.c-ct1-rmid{
+  margin-top: 6px;
+}
+.c-ct1-rbot{
+  margin-top: 15px;
+}
+.c-ct1-rbtn{
+  width: 79px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #F2F2F2;
+  float: left;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.c-rbtn-first{
+  margin-left: 0;
+}
+.c-section{
+  width: 1072px;
+  margin: 0 auto;
+}
+.c-content2{
+  width: 883px;
+  margin-top: 30px;
+  margin-left: 176px;
+}
+.c-ct2-title{
+  font-size: 14px;
+}
+.c-ct2-box{
+  margin-top: 15px;
+  width: 883px;
+  height: 130px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+}
+.c-ct2b-item{
+  float: left;
+}
+.c-ct2b-mg{
+  float: left;
+  margin-left: 34px;
+  margin-top: 36px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.c-ct2b-txt{
+  float: left;
+  margin-left: 22px;
+  width: 134px;
+}
+.c-ct2bt1{
+  font-size: 14px;
+  margin-top: 27px;
+}
+.c-ct2bt2{
+  font-size: 12px;
+  color: #9b9b9b;
+  margin-top: 4px;
+}
+.c-ct2b-line{
+  width: 2px;
+  height: 58px;
+  background-color: #DFDFDF;
+  float: left;
+  margin-left: 34px;
+  margin-top: 36px;
+}
+.c-content3{
+  width: 883px;
+  margin-top: 30px;
+  margin-left: 176px;
+}
+.c-ct3-title{
+  font-size: 14px;
+}
+.c-ct3-box{
+  margin-left: -25px;
+  margin-top: -8px;
+}
+.c-ct3-bitem{
+  float: left;
+  margin-top: 25px;
+  margin-left:25px;
+  background-color: #fff;
+  border-radius: 3px;
+  width: 202px;
+  height: 172px;
+  cursor: pointer;
+}
+.c-ct3-b-mg{
+  width: 201px;
+  height: 120px;
+}
+.c-ct3-b-t{
+  font-size: 12px;
+  color: #000;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  margin-left:14px;
+}
+.c-ct3-b-tl{
+  float: left;
+  font-size: 10px;
+  -webkit-transform: scale(0.83);/*10/12*/
+  color: #9B9B9B;
+  margin-left:10px;
+}
+.c-ct3-b-tr{
+  float: right;
+  font-size: 10px;
+  -webkit-transform: scale(0.83);/*10/12*/
+  color: #9B9B9B;
+  margin-right:10px;
+}
+.c-ct3-top{
+  margin-top: 15px;
+  width: 883px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+  position: relative;
+}
+.c-ct3t-s{
+  float: left;
+  margin-top: 11px;
+  margin-left: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.c-ct3t-s-active{
+  color: #29A7E1;
+  border-color: #29A7E1;
+}
+.c-ct3t-sf{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  float: right;
+  margin-left: 7px;
+  margin-top: 2px;
+}
+.c-ct3ts-sel1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  display: none;
+}
+.c-ct3ts-sel2{
+  position: absolute;
+  top: 0;
+  left: 58px;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  display: none;
+}
+.c-ct3ts-sel1-i{
+  padding-right: 30px;
+  padding-left: 15px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #EEEEEE;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.c-ct3ts-sel1-if{
+  height: 40px;
+}
+.c-ct3-page{
+  width: 883px;
+  margin-top: 40px;
+  text-align: center;
+}
+.c-footer-selecttwo{
+  margin-top: 40px;
+}
+.c-teacher-logout{
+  text-align: right;
+  margin-top: 2px;
+  color: #9B9B9B;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+@import "../../../common/skin/var";
+
+.add-plan-main{
+  width: 100%;
+}
+.add-plan-left{
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+}
+
+.add-plan-right{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+}
+
+.add-custom-menu{
+  padding : 0 15px 13px 15px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.add-custom-top{
+  padding: 18px 20px;
+}
+
+.add-custom-card-list{
+
+  height: 348px;
+  overflow-y: scroll;
+
+    &>li{
+      padding: 18px;
+        .card-title{
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+      .card-teacher{
+        font-size: 12px;
+        padding-bottom: 12px;
+      }
+      border-bottom: 1px solid #F0F0F0;
+    }
+}
+
+
+.course-list-default{
+  min-height: 300px;
+  text-align: center;
+  padding-top: 100px;
+  color : $text-gray-color;
+}
+
+
+.course-table-add{
+  padding: 15px;
+}
+
+.add-custom-table{
+  width: 100%;
+
+  .add-custom-table-header{
+    .add-custom-table-item{
+      width:  20%;
+      padding: 10px;
+      text-align: center;
+      float: left;
+    }
+  }
+
+  .add-custom-table-body{
+    height: 380px;
+    overflow-y: auto;
+    .add-custom-table-item{
+      width:  20%;
+      float: left;
+    }
+    .add-custom-table-data{
+      font-size: 12px;
+      cursor: pointer;
+      padding: 16px;
+      border: 1px solid #F0F0F0;
+      border-bottom: 0;
+      border-right: 0;
+      height: 120px;
+      .add-custom-table-content{
+        height: ((120/2) + 10) * 1px;
+      }
+      &:last-child{
+        border-bottom: 1px solid #F0F0F0;
+      }
+
+      &.active{
+        box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.10);
+      }
+    }
+
+  }
+
+
+
+}
+
+
+.course-table-util{
+  padding: 10px;
+  padding-bottom: 0;
+  .iconfont{
+    font-size: 20px;
+  }
+}
+
+.w-l{
+  //width: 33.333%;
+  width: 310px;
+  min-width: 310px;
+}
+
+.w-r{
+}
+
+
+
+
+
+.fixed-bottom{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background: #fff;
+  z-index: 10;
+}
+
+
+

@@ -1,0 +1,175 @@
+@import "../../../common/skin/var";
+
+$course-width : 160px;
+
+.user-course-time{
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.learn-target-list{
+  &>li{
+      background: #fff;
+      margin-bottom: 15px;
+      padding: 16px;
+    a{
+      display: block;
+      clear: both;
+      position: relative;
+
+      .review-tag{
+        background: #F45921;
+        box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.08);
+        color: #fff;
+        padding: 3.5px 15.5px;
+        font-size: 12px;
+        position: absolute;
+        right : -21px;
+        top :0;
+        z-index: 2;
+      }
+
+      .learn-target-img{
+        width: 211px;
+        height: 130px;
+        overflow: hidden;
+        margin-right: 16px;
+      }
+
+      .learn-target-bottom{
+        margin-top: 33px;
+      }
+
+      .learn-target-info{
+        margin-top: 16px;
+        font-size: 12px;
+
+      }
+
+    }
+
+  }
+
+}
+
+.play-list{
+  &>li{
+      float : left;
+      margin-right : 15px;
+      margin-bottom: 15px;
+      background: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+      border-radius: 4px;
+    overflow: hidden;
+    a{
+      display: block;
+    }
+  }
+
+  .play-content{
+    .play-desc{
+      padding: 10px;
+    }
+
+    .play-cover{
+      height: 120px;
+      width : 200px;
+      overflow: hidden;
+    }
+
+  }
+
+}
+
+.syllabus-list{
+  .syllabus-item{
+        float: left;
+
+      .syllabus-week{
+        border: 1px solid #F0F0F0;
+        border-right: 0;
+        padding: 21px 10px;
+        width: $course-width;
+        text-align: center;
+  }
+    &:last-child{
+      .syllabus-week{
+        border-right: 1px solid #F0F0F0;
+      }
+
+    }
+    .syllabus-week-date{
+      font-size: 18px;
+      text-align: center;
+    }
+    .syllabus-week-time{
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+
+    .syllabus-content{
+      margin-top: 25px;
+    }
+
+    &.active{
+      .syllabus-week-date{
+        color: $primary-color;
+      }
+    }
+
+  }
+
+}
+
+.syllabus-main{
+  overflow-y: auto;
+  height: 200px;
+  padding: 2px;
+  margin-top: 25px;
+}
+
+.syllabus-content{
+  display: inline-block;
+  width: $course-width;
+  vertical-align: top;
+}
+
+.syllabus-content-list{
+  &>li{
+    border-left: 1px solid #F0F0F0;
+    position: relative;
+    padding : 0 14px 25px 14px;
+  }
+
+  .syllabus-content-desc{
+    position: relative;
+    top: -4px;
+  }
+}
+
+.syllabus-circle{
+  width: 5px;
+  height: 5px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #DEDEDE;
+  display: inline-block;
+
+  left: -3px;
+  z-index: 3;
+  top: 0;
+  position: absolute;
+}
+
+.syllabus-line{
+}
+
+
+.mt-temp-4{
+  margin-top: 4px;
+}
+
+

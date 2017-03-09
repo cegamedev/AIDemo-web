@@ -1,0 +1,21 @@
+@import "../../../common/skin/var";
+
+
+
+  .user-info-bar{
+    padding: 10px 10px;
+    .user-info-label{
+      padding-left: 8px;
+      border-left: 2px solid $primary-color;
+    }
+    border-bottom: 1px solid $border-color;
+  }
+
+
+.base-form{
+   padding: 30px 60px;
+ }
+
+
+
+

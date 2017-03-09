@@ -1,0 +1,67 @@
+.teacher-dialog {
+  max-height: 350px;
+  height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+  //background: #F0F3F4;
+  color: #7F7F7F;
+  .t-row, .t-row-children{
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+  }
+  .line-border {
+    border-bottom: 1px solid #F0F3F4;
+  }
+  .t-item {
+    .t-row-icon {
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 3px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+    }
+  }
+  .v-check {
+    position: absolute;
+    z-index: 2;
+    right: 21px;
+    top: 0;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .t-row-children {
+    font-size: 12px;
+    padding-left: 64px;
+  }
+  .t-sub-item {
+  }
+  .t-content {
+    padding-left: 40px;
+  }
+  .t-bottom {
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 8px 15px;
+    .t-b-label {
+      position: absolute;
+      height: 40px;
+      line-height: 40px;
+      top: 9px;
+      right: 35px;
+      color: #29A7E1;
+      cursor: pointer;
+    }
+  }
+}

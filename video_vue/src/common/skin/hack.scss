@@ -1,0 +1,136 @@
+.mint-indicator-wrapper{
+  z-index: 99999;
+}
+
+.mint-swipe-indicator{
+  opacity: 0.8;
+}
+
+
+
+.mint-navbar .mint-tab-item.is-selected{
+  border-bottom: 3px solid #42BD55;
+  color: #42BD55;
+}
+
+
+
+.mint-switch-input:checked + .mint-switch-core{
+  border-color: #42BD55;
+  background-color: #42BD55;
+}
+.mint-switch-core{
+  width: 42px;
+  height: 22px;
+}
+.mint-switch-core:after{
+  width: 20px;
+  height: 20px;
+}
+
+.mint-switch-core::before {
+  width: 40px;
+  height: 20px;
+  background-color: #fdfdfd;
+}
+
+
+//弹窗样式
+.el-dialog{
+  border-radius: 4px;
+}
+.el-dialog__body{
+  padding: 20px 20px;
+}
+.el-dialog__header{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #29A7E1;
+  text-align: center;
+  padding: 14.5px;
+  .el-dialog__title{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+  }
+  .el-dialog__close{
+    color: #fff;
+  }
+}
+
+
+//选择框
+.el-input__inner{
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  color: $text-gray-color;
+  font-size: 12px;
+}
+.el-input__inner:hover{
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6 !important;
+}
+.el-select .el-input__inner:focus{
+  border-color: inherit !important;
+}
+
+.userCourseDialog{
+  width: 60%;
+}
+.addOrUpdateDialog{
+  width: 600px;
+}
+
+
+
+//下拉菜单
+.el-dropdown-menu{
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 2px 4px 0px rgba(156,156,156,0.08);
+  margin: 0;
+  font-size: 12px;
+  min-width: 60px;
+
+}
+
+.dropdown-select-auto{
+
+    .el-input{
+      width: 94px;
+      input{
+        height : 26px;
+      }
+    }
+
+  &.lg{
+    .el-input{
+      width: 125px;
+    }
+  }
+}
+
+
+
+.el-cascader-custom{
+  margin-top: 10px;
+  input{
+    height: 26px;
+  }
+  input:hover{
+    background: transparent !important;
+  }
+  .el-cascader__label{
+    font-size: 12px;
+    line-height: 26px;
+  }
+}
+
+
+
+
+
+
+
+
+

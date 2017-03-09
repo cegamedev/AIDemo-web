@@ -1,0 +1,253 @@
+/*头部*/
+
+.c-header-section{
+  background-color: #fff;
+  height: 50px;
+}
+.c-header{
+  width: 1250px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.c-h-logo{
+  background: url("./resources/images/logo.png") center center no-repeat;
+  background-size: 100%;
+  width: 120px;
+  height: 36px;
+  float: left;
+  cursor: pointer;
+}
+.c-h-txt{
+  height: 34px;
+  line-height: 34px;
+  margin-left: 35px;
+  float: left;
+}
+.c-h-t{
+  display: inline-block;
+  width: 70px;
+  float: left;
+  cursor: pointer;
+}
+.c-h-t-active{
+  color: #29A7E1;
+}
+.c-c-h-search{
+  width: 240px;
+  height: 34px;
+  margin-left: 86px;
+  float: left;
+}
+.c-c-h-s-box{
+  width: 240px;
+  height: inherit;
+  border-radius: 17px;
+  border: 2px solid #29A7E1;
+  position: relative;
+  overflow: hidden;
+}
+
+.c-c-h-s-input{
+  position: absolute;
+  height: inherit;
+  width: 165px;
+  font-size: 12px;
+  color: #9B9B9B;
+  left: 17px;
+  top: -2px;
+  border: 0;
+  text-align: left;
+}
+.c-c-h-s-btn{
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  background: url("./resources/images/search-btn.png") center center no-repeat;
+  background-size: 100%;
+  width: 57px;
+  height: 34px;
+  cursor: pointer;
+}
+.c-h-wx{
+  background: url("./resources/images/wxlogo.png") center center no-repeat;
+  background-size: 100%;
+  width: 99px;
+  height: 36px;
+  margin-left: 41px;
+  float: right;
+  cursor: pointer;
+}
+.c-h-wxmg{
+  width: 163px;
+  height: 188px;
+  position: absolute;
+  z-index: 3;
+  top: 54px;
+  display: none;
+}
+.c-c-h-help{
+  width: 151px;
+  height: 19px;
+  margin-left: 34px;
+  float: right;
+}
+.c-c-h-h-y{
+  float: left;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F58D23;
+  border:0;
+  margin-top: 2px;
+}
+.c-c-h-h-t1{
+  font-size: 12px;
+  float: left;
+  margin-left: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.c-c-h-h-x{
+  background: url("./resources/images/c-h-h-x.png") center center no-repeat;
+  background-size: 100%;
+  width: 5px;
+  height: 3px;
+  float: left;
+  margin-left: 4px;
+  margin-top: 15px;
+}
+.c-c-h-h-s{
+  width: 1px;
+  height: 11px;
+  background-color: #979797;
+  float: left;
+  margin-left: 8px;
+  margin-top: 11px;
+}
+.c-c-h-h-t2{
+  font-size: 12px;
+  float: left;
+  margin-left: 9px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+
+
+
+/*底部*/
+.c-footer{
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #3c3c3c;
+  width: 100%;
+  height: 136px;
+  margin-top: 200px;
+}
+.c-f-txt1{
+  opacity: .3;
+  margin-top: 47px;
+}
+.c-f-txt2{
+  opacity: .3;
+  margin-top: 8px;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+
+
+//侧边
+.c-left-nav{
+  width: 20%;
+  float: left;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 2px 4px 0 rgba(156,156,156,0.08);
+}
+.c-right-content{
+  width: 80%;
+  float: left;
+  padding-left: 18px;
+}
+
+.c-nav-list{
+  &>li{
+
+    color: #9b9b9b;
+    border-bottom: 1px solid #f0f0f0;
+    fill:#A5A5A5;
+    cursor: pointer;
+    padding-left: 25%;
+
+    a{
+      display: block;
+      padding : 12px 0;
+      color: #9B9B9B;
+      font-size: 12px;
+
+      .nav-name{
+        margin-left: 10px;
+        position: relative;
+        bottom: 1px;
+      }
+
+      &.user-info{
+      }
+    }
+
+    &.active{
+      a{
+        color: #49BAE4;
+        .iconfont{
+          color: #49BAE4;
+        }
+      }
+
+    }
+  }
+}
+
+
+.c-user-info{
+  font-size : 12px;
+  .c-user-info-img{
+    width : 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+
+//宽度尺寸
+.w-container-sm{
+  width : 1072px
+}
+
+
+.container-pd-top{
+  padding-top: 25px;
+}
+
+
+.tag-in-complete{
+  background: url("./resources/images/inTheRough.png") center center no-repeat;
+  background-size : 100%  100%;
+  width: 37px;
+  height:15px;
+
+}
+.tag-complete{
+  background: url("./resources/images/theRough.png") center center no-repeat;
+  background-size : 100%  100%;
+  width: 37px;
+  height:15px;
+
+}
